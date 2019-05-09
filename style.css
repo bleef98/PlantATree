@@ -2,9 +2,23 @@
 
 body {
   font-family: 'Roboto', sans-serif;
-
+background-color: #FDF5E6		;
   background-size: cover;
 }
+
+h2 { 
+margin-top: 50px;
+text-align: center;
+}
+
+
+.news {
+width: 80%; 
+margin: 0 auto;
+background-color:white;
+
+}
+
 
 .main-section {
   margin: 0 auto;
@@ -42,26 +56,31 @@ body {
 .nav {
   height: 50px;
   width: 100%;
-  background-color: #4d4d4d;
-  position: relative;
+  background-color: #FDF5E6	;
+  position: fixed;
   z-index: 5;
 }
+
 
 .nav > .nav-header {
   display: inline;
   z-index: 5;
+  
 }
 
 .nav > .nav-header > .nav-title {
   display: inline-block;
   font-size: 22px;
-  color: #fff;
+  color: black;
   padding: 10px 10px 10px 10px;
   z-index: 5;
+  
 }
 
 .nav > .nav-btn {
   display: none;
+  color: black;
+
 }
 
 .nav > .nav-links {
@@ -74,17 +93,20 @@ body {
   display: inline-block;
   padding: 13px 10px 13px 10px;
   text-decoration: none;
-  color: #efefef;
+  color: black;
 }
 
 .nav > .nav-links > a:hover {
-  background-color: rgba(0, 0, 0, 0.3);
+  background-color: white;
 }
 
 .nav > #nav-check {
   display: none;
   z-index: 5;
+  color: black;
 }
+
+
 
 @media (max-width:600px) {
   .nav > .nav-btn {
@@ -98,6 +120,7 @@ body {
     display: inline-block;
     width: 50px;
     height: 50px;
+	color: black;
     padding: 13px;
     z-index: 5;
   }
@@ -109,6 +132,7 @@ body {
     display: block;
     width: 25px;
     height: 10px;
+	color: black;
     border-top: 2px solid #eee;
     z-index: 5;
   }
@@ -116,7 +140,7 @@ body {
     position: absolute;
     display: block;
     width: 100%;
-    background-color: #333;
+    background-color: #FDF5E6	;
     height: 0px;
     transition: all 0.3s ease-in;
     overflow-y: hidden;
@@ -128,14 +152,27 @@ body {
     display: block;
     width: 100%;
     z-index: 5;
+	color: black;
   }
   .nav > #nav-check:not(:checked) ~ .nav-links {
     height: 0px;
+	color:black;
     z-index: 5;
   }
   .nav > #nav-check:checked ~ .nav-links {
     height: calc(100vh - 50px);
+	color: black;
     overflow-y: auto;
     z-index: 5;
   }
 }
+
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #2B3133	;
+  color: white;
+  text-align: center;
