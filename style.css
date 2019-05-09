@@ -57,7 +57,7 @@ body {
   height: 50px;
   width: 100%;
   background-color: #FDF5E6	;
-  position: fixed;
+  position: relative;
   z-index: 5;
 }
 
