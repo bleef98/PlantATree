@@ -6,19 +6,26 @@ background-color: #FDF5E6		;
   background-size: cover;
 }
 
-h2 { 
+h2 {
 margin-top: 50px;
 text-align: center;
 }
 
 
 .news {
-width: 80%; 
+width: 80%;
 margin: 0 auto;
 background-color:white;
 
 }
 
+
+.newsimg {
+  width: 70%;
+  margin: 0 auto;
+  display: block;
+
+}
 
 .main-section {
   margin: 0 auto;
@@ -34,6 +41,8 @@ background-color:white;
   text-align: center;
 }
 
+
+
 .modal-content {
   background-color: white;
   opacity: .90;
@@ -48,6 +57,10 @@ background-color:white;
   box-sizing: border-box;
 }
 
+
+.citem {
+height: 40px;
+}
 body {
   margin: 0px;
   font-family: 'segoe ui';
@@ -65,7 +78,7 @@ body {
 .nav > .nav-header {
   display: inline;
   z-index: 5;
-  
+
 }
 
 .nav > .nav-header > .nav-title {
@@ -74,7 +87,7 @@ body {
   color: black;
   padding: 10px 10px 10px 10px;
   z-index: 5;
-  
+
 }
 
 .nav > .nav-btn {
