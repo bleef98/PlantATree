@@ -16,7 +16,12 @@ text-align: center;
 width: 80%; 
 margin: 0 auto;
 background-color:white;
+}
 
+.plants {
+width: 80%; 
+margin: 0 auto;
+background-color:white;
 }
 
 
@@ -176,3 +181,4 @@ body {
   background-color: #2B3133	;
   color: white;
   text-align: center;
+}
