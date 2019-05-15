@@ -16,8 +16,8 @@ text-align: center;
 width: 80%;
 margin: 0 auto;
 background-color:white;
-}
 
+<<<<<<< HEAD
 .plants {
 width: 80%; 
 align-content: center;
@@ -25,6 +25,8 @@ margin: 0 auto;
 padding-left: 10%;
 padding-right: 10%;
 background-color:white;
+=======
+>>>>>>> a9cefbac9a7b5d431ddcb529fc5cba3091760e58
 }
 
 
@@ -70,9 +72,13 @@ h5 {
 }
 
 
-.citem {
-height: 40px;
+.carousel-caption {
+background-color: rgba(0, 0, 0, 0.5);
+
+
 }
+
+
 body {
   margin: 0px;
   font-family: 'segoe ui';
@@ -194,7 +200,6 @@ body {
 
 
 .footer {
-  position: fixed;
   left: 0;
   bottom: 0;
   width: 100%;
