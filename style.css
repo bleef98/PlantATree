@@ -16,9 +16,10 @@ text-align: center;
 width: 80%;
 margin: 0 auto;
 background-color:white;
+}
 
-.plants {
-width: 80%;
+.plants{
+  width: 80%;
 align-content: center;
 margin: 0 auto;
 padding-left: 10%;
