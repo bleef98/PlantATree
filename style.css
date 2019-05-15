@@ -16,12 +16,7 @@ text-align: center;
 width: 80%;
 margin: 0 auto;
 background-color:white;
-}
 
-.plants {
-width: 80%; 
-margin: 0 auto;
-background-color:white;
 }
 
 
@@ -63,9 +58,13 @@ background-color:white;
 }
 
 
-.citem {
-height: 40px;
+.carousel-caption {
+background-color: rgba(0, 0, 0, 0.5);
+
+
 }
+
+
 body {
   margin: 0px;
   font-family: 'segoe ui';
@@ -194,4 +193,3 @@ body {
   background-color: #2B3133	;
   color: white;
   text-align: center;
-}
