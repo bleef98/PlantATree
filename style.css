@@ -32,6 +32,10 @@ background-color:white;
 
 }
 
+h5 {
+  align-items: center;
+}
+
 .main-section {
   margin: 0 auto;
   margin-top: 130px;
