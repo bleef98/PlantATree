@@ -16,15 +16,12 @@ text-align: center;
 width: 80%;
 margin: 0 auto;
 background-color:white;
-
 }
-
 
 .newsimg {
   width: 70%;
   margin: 0 auto;
   display: block;
-
 }
 
 h5 {
@@ -64,8 +61,6 @@ h5 {
 
 .carousel-caption {
 background-color: rgba(0, 0, 0, 0.5);
-
-
 }
 
 
@@ -74,6 +69,8 @@ body {
   font-family: 'segoe ui';
 }
 
+
+/* navigation bar style */
 .nav {
   height: 50px;
   width: 100%;
@@ -128,7 +125,7 @@ body {
 }
 
 
-
+/* nav bar when screen size smaller than 600px */
 @media (max-width:600px) {
   .nav > .nav-btn {
     display: inline-block;
@@ -190,10 +187,16 @@ body {
 
 
 .footer {
-  position: fixed;
   left: 0;
   bottom: 0;
   width: 100%;
   background-color: #2B3133	;
   color: white;
   text-align: center;
+   height:30px;   /* Height of the footer */
+}
+
+.ftext {
+  vertical-align: center;
+  margin: auto;
+}
