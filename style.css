@@ -18,8 +18,18 @@ margin: 0 auto;
 background-color:white;
 }
 
+.checkout{
+width: 90%;
+margin: 0 auto;
+padding: 1%;
+background-color: white;
+}
+
+.container wrapper{
+background-color: white;
+}
 .plants{
-  width: 80%;
+width: 80%;
 align-content: center;
 margin: 0 auto;
 padding-left: 10%;

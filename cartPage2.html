@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>PlantATree Prototype - Cart</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+	<link rel="icon" href="img/tree_icon.jpg">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+	<script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+	<div class="nav">
+		<input type="checkbox" id="nav-check">
+		<div class="nav-header">
+			<div class="nav-title">
+				PlantATree
+			</div>
+		</div>
+		<div class="nav-btn">
+			<label for="nav-check">
+				<span></span>
+				<span></span>
+				<span></span>
+			</label>
+		</div>
+
+		<div class="nav-links">
+			<a href="home.html">Home</a>
+			<a href="plants.html">Plants</a>
+			<a href="products.html">Products</a>
+			<a href="cartPage1.html">Cart</a>
+		</div>
+	</div>
+	
+	<div class="checkout">
+		<div class="modal-dialog text-center">
+			<div class="modal-content">
+				<div class="col-12 user-img">
+					<h2>Billing Address</h2><hr>
+				</div>
+				<div class="form-group">
+					<div class="col-md-12"><strong>Country:</strong></div>
+					<div class="col-md-12">
+						<input type="text" class="form-control" name="country" value="" />
+					</div>
+				</div>
+				<div class="form-group">
+					<div class="col-md-6 col-xs-12">
+						<strong>First Name:</strong>
+						<input type="text" name="first_name" class="form-control" value="" />
+					</div>
+					<div class="span1"></div>
+					<div class="col-md-6 col-xs-12">
+						<strong>Last Name:</strong>
+						<input type="text" name="last_name" class="form-control" value="" />
+					</div>
+				</div>
+				<div class="form-group">
+					<div class="col-md-12"><strong>Address:</strong></div>
+					<div class="col-md-12">
+						<input type="text" name="address" class="form-control" value="" />
+					</div>
+				</div>
+				<div class="form-group">
+					<div class="col-md-12"><strong>City:</strong></div>
+					<div class="col-md-12">
+						<input type="text" name="city" class="form-control" value="" />
+					</div>
+				</div>
+				<div class="form-group">
+					<div class="col-md-12"><strong>State:</strong></div>
+					<div class="col-md-12">
+						<input type="text" name="state" class="form-control" value="" />
+					</div>
+				</div>
+				<div class="form-group">
+					<div class="col-md-12"><strong>Zip / Postal Code:</strong></div>
+					<div class="col-md-12">
+						<input type="text" name="zip_code" class="form-control" value="" />
+					</div>
+				</div>
+				<div class="form-group">
+					<div class="col-md-12"><strong>Phone Number:</strong></div>
+					<div class="col-md-12"><input type="text" name="phone_number" class="form-control" value="" /></div>
+				</div>
+				<div class="form-group">
+					<div class="col-md-12"><strong>Email Address:</strong></div>
+					<div class="col-md-12"><input type="text" name="email_address" class="form-control" value="" /></div>
+				</div>
+				<button type="submit" onclick="window.location.href = 'cartPage3.html';" class="btn">Confirm</button>
+			</div>
+		</div>
+	</div>
+
+	<div class="footer">
+		<p class="ftext">Copyright JAAC |
+			<a href="https://trello.com/b/aN70UhJE/plantatree" style="color:white"> Trello |</a>
+			<a href="https://github.com/bleef98/PlantATree" style="color:white"> Github </a>
+		</p>
+	</div>
+</body>
+
+</html>
