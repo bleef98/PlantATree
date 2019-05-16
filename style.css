@@ -18,8 +18,18 @@ margin: 0 auto;
 background-color:white;
 }
 
+.checkout{
+width: 90%;
+margin: 0 auto;
+padding: 1%;
+background-color: white;
+}
+
+.container wrapper{
+background-color: white;
+}
 .plants{
-  width: 80%;
+width: 80%;
 align-content: center;
 margin: 0 auto;
 padding-left: 10%;
@@ -51,8 +61,6 @@ h5 {
   text-align: center;
 }
 
-
-
 .modal-content {
   background-color: white;
   opacity: .90;
@@ -62,11 +70,9 @@ h5 {
   box-shadow: 0px 0px 3px #848484;
 }
 
-
 * {
   box-sizing: border-box;
 }
-
 
 .carousel-caption {
 background-color: rgba(0, 0, 0, 0.5);
@@ -87,7 +93,6 @@ body {
   position: relative;
   z-index: 5;
 }
-
 
 .nav > .nav-header {
   display: inline;
@@ -132,7 +137,6 @@ body {
   z-index: 5;
   color: black;
 }
-
 
 /* nav bar when screen size smaller than 600px */
 @media (max-width:600px) {
@@ -194,7 +198,6 @@ body {
   }
 }
 
-
 .footer {
   left: 0;
   bottom: 0;
@@ -209,8 +212,6 @@ body {
   vertical-align: center;
   margin: auto;
 }
-
-
 
 html,body,.wrapper{
     background: #f7f7f7;
