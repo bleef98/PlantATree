@@ -8,10 +8,8 @@
 </head>
 
 <body>
-
-    <h1> REJISTER </h1>
-
     <?php
+    echo "Register Process PHP";
 
     $dbServername = "remotemysql.com:3306";
     $dbUsername = "DCrftK3aaZ";
@@ -38,14 +36,12 @@
     $company = $_POST['company'];
     //$acc_type = $_POST['acc_type'];
 
+    echo $_POST['fName'];
+
     $insert = "INSERT INTO customers(fName, lName, email, pwd, company)
             VALUES('$fName', '$lName', '$email', '$pwd', '$company');";
 
     mysqli_query($conn, $insert);
-    echo "<p>Status has been Posted :)</p>";
-
-
-
     ?>
 
 </body>
