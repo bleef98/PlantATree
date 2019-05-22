@@ -10,7 +10,10 @@
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 	<script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+	<script src="https://apis.google.com/js/platform.js" async defer></script>
 	<link href="style.css" rel="stylesheet">
+	<meta name="google-signin-client_id" content="221063791538-2m5cdlv1oideg7e70l9thm4cjgtju6uu.apps.googleusercontent.com">
+	<script src="googlescript.js"></script>
 </head>
 <body>
 	<div class="modal-dialog text-center">
@@ -41,6 +44,9 @@
 					<br>
 					<a href="register.html">Register</a><br>
 					<a href="forgotpassword.html">Forgot Password</a>
+
+					<div class="g-signin2" data-onsuccess="onSignIn"></div>
+
 				</div>
 
 			</div> <!-- End Modal Content-->
