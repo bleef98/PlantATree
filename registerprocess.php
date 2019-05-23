@@ -18,7 +18,7 @@
 
     $conn = mysqli_connect($dbServername, $dbUsername, $dbPassword, $dbName);
 
-    $sqlCreateTable = "CREATE TABLE IF NOT EXISTS testtree3 (
+    $sqlCreateTable = "CREATE TABLE IF NOT EXISTS plantatree (
         f_name varchar(30), 
         l_name varchar(30), 
         user_email varchar(30), 
@@ -30,11 +30,8 @@
     $fname = $_POST['fName'];
     $lname = $_POST['lName'];
     $email = $_POST['email'];
-    $pass = $_POST['password'];
+    $pass = $_POST['pwd'];
     $company = $_POST['company'];
-
-    echo $fname.$lname.$email.$pass.$company;
-    
 
     /* TEST INSERT
     $sqlPostDB = "INSERT INTO testtree2 (f_name, l_name, user_email, user_pwd, user_company)
@@ -42,14 +39,13 @@
     */ 
 
     // TRUE INSERT
-    $sqlPostDB = "INSERT INTO testtree3 (f_name, l_name, user_email, user_pwd, user_company)
+    $sqlPostDB = "INSERT INTO plantatree (f_name, l_name, user_email, user_pwd, user_company)
                     VALUES('$fname', '$lname', '$email', '$pass', '$company');";
     
     mysqli_query($conn, $sqlPostDB);
 
-    echo "change 2.1";
+    echo "change 2.3";
     ?>
-
 </body>
 
 </html>
