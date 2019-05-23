@@ -1,10 +1,9 @@
 <!DOCTYPE html>
 <html>
-
 <head>
-    <title>Register</title>
+    <title>Register Result</title>
     <meta http-wquiv="Content-Type" content="text/html; charset=utf-8" />
-
+    <link href="style.css" rel="stylesheet">
 </head>
 
 <body>
@@ -33,19 +32,16 @@
     $pass = $_POST['pwd'];
     $company = $_POST['company'];
 
-    /* TEST INSERT
-    $sqlPostDB = "INSERT INTO testtree2 (f_name, l_name, user_email, user_pwd, user_company)
-                    VALUES('testNumberTwo', 'yee', 'eee', 'YUU@', '****');";
-    */ 
-
-    // TRUE INSERT
+    // INSERT SQL COMMAND
     $sqlPostDB = "INSERT INTO plantatree (f_name, l_name, user_email, user_pwd, user_company)
                     VALUES('$fname', '$lname', '$email', '$pass', '$company');";
     
     mysqli_query($conn, $sqlPostDB);
 
-    echo "change 2.3";
+    echo "change 2.4";
     ?>
+
+    TEST TEXt
 </body>
 
 </html>
