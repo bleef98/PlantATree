@@ -38,10 +38,27 @@
     
     mysqli_query($conn, $sqlPostDB);
 
-    echo "change 2.4";
+    echo "change 2.5";
     ?>
 
-    TEST TEXt
+    <div class="modal-dialog text-center">
+		<div class="col-sm-8 main-section">
+			<div class="modal-content">
+				
+				<div class="col-12 user-img">
+					<h2>Register Success!</h2>
+					<img src="img/treelogo.png">
+				</div>
+
+				<div class="col-12 under-login">
+					<br>
+					<a href="register.html">Register another Account</a><br>
+					<a href="index.html">Return Home</a>
+				</div>
+
+			</div> <!-- End Modal Content-->
+		</div>
+	</div>
 </body>
 
 </html>
