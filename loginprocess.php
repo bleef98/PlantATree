@@ -8,11 +8,13 @@
     $conn = mysqli_connect($dbServername, $dbUsername, $dbPassword, $dbName);
 
 	// get name and password passed from client
-    echo "HELLO";
-    echo $_POST['email'];
-
+	$email = $_POST['email'];
+    $pwd = $_POST['pwd'];
     
-    /*
+    echo $email;
+    echo $pwd;
+
+	/*
 	// Checks if given username exists within the table
 	$sqlEmailCheck = "SELECT user_email FROM plantatree WHERE user_email='$email';";
 	$sqlQueryEmail = mysqli_query($conn, $sqlEmailCheck);
@@ -27,12 +29,12 @@
 		$sqlResultPassword = mysqli_fetch_assoc($sqlQueryPassword);
 
 		if($sqlResultPassword["user_password"] == $pwd){
-			header("home.html"); 
+			// Password and Username combination is correct. Now corresponding email
+			header("home.html"); /* Redirect browser 
             exit();
 		}
 		else{
 			echo "Password is incorrect";
 		}
-    }
-    */
+	}*/
 ?>
