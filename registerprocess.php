@@ -1,15 +1,20 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Register Result</title>
-    <meta http-wquiv="Content-Type" content="text/html; charset=utf-8" />
-    <link href="style.css" rel="stylesheet">
+<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>PlantATree Prototype - Register Result</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+	<link rel="icon" href="img/tree_icon.jpg">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+	<script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+	<link href="style.css" rel="stylesheet">
 </head>
 
 <body>
     <?php
-    echo "Register Process PHP<br>";
-
     $dbServername = "remotemysql.com:3306";
     $dbUsername = "DCrftK3aaZ";
     $dbPassword = "sHp1bqQVIC";
@@ -37,8 +42,6 @@
                     VALUES('$fname', '$lname', '$email', '$pass', '$company');";
     
     mysqli_query($conn, $sqlPostDB);
-
-    echo "change 2.5";
     ?>
 
     <div class="modal-dialog text-center">
