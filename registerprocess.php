@@ -27,21 +27,10 @@
 
     mysqli_query($conn, $sqlCreateTable);
 
-    $fName = $_POST['fName'];
-    $lName = $_POST['lName'];
-    $email = $_POST['email'];
-    $pwd = $_POST['pwd'];
-    $company = $_POST['company'];
-    //$acc_type = $_POST['acc_type'];
 
-    echo "change 1.0";
+    echo "change 1.1";
     echo $_POST['fName'];
     
-    
-    $insert = "INSERT INTO plantATree(fName, lName, userEmail, userPWD, userCompany)
-            VALUES('$fName', '$lName', '$email', '$pwd', '$company');";
-
-    mysqli_query($conn, $insert);
     
     ?>
 
