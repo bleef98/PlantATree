@@ -18,12 +18,12 @@
 
     $conn = mysqli_connect($dbServername, $dbUsername, $dbPassword, $dbName);
 
-    $sqlCreateTable = "CREATE TABLE IF NOT EXISTS poststatus (
-        status_code varchar(30), 
-        status_text varchar(256), 
-        status_share varchar(30), 
-        status_date Date, 
-        status_perm varchar(30));";
+    $sqlCreateTable = "CREATE TABLE IF NOT EXISTS plantatree (
+        f_name varchar(30), 
+        l_name varchar(256), 
+        user_email varchar(30), 
+        user_pwd varchar(30), 
+        user_company varchar(30));";
     /*
     $sqlCreateTable = "CREATE TABLE IF NOT EXISTS plantATree(
                             fName varchar(30), 
@@ -35,7 +35,7 @@
     mysqli_query($conn, $sqlCreateTable);
 
 
-    echo "change 1.2";
+    echo "change 1.3";
     echo $_POST['fName'];
     
     
