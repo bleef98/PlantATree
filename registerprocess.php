@@ -18,7 +18,7 @@
 
     $conn = mysqli_connect($dbServername, $dbUsername, $dbPassword, $dbName);
 
-    $sqlCreateTable = "CREATE TABLE IF NOT EXISTS testree (
+    $sqlCreateTable = "CREATE TABLE IF NOT EXISTS testtree (
         f_name varchar(30), 
         l_name varchar(30), 
         user_email varchar(30), 
