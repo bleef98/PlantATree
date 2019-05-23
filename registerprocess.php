@@ -34,12 +34,20 @@
 
     mysqli_query($conn, $sqlCreateTable);
 
+    $fname
+    $lname
+    $email
+    $password
+    $company
+
+
+        /*
     $sqlPostDB = "INSERT INTO plantatree (f_name, l_name, user_email, user_pwd, user_company)
                     VALUES('$_POST['fName']', '$_POST['lName']', '$_POST['email']', '$_POST['pwd']', '$_POST['company']');";
     
-    mysqli_query($conn, $sqlPostDB);
+    mysqli_query($conn, $sqlPostDB);*/
 
-    echo "change 1.4";
+    echo "change 1.5";
     echo $_POST['fName'];
     
     
