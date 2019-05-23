@@ -20,9 +20,9 @@
 
     $sqlCreateTable = "CREATE TABLE IF NOT EXISTS plantATree (
                             fName varchar(30), 
-                            lName varchar(256), 
+                            lName varchar(30), 
                             userEmail varchar(30), 
-                            userPWD Date, 
+                            userPWD varchar(30, 
                             userCompany varchar(30));";
 
         mysqli_query($conn, $sqlCreateTable);
