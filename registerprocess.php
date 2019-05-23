@@ -29,11 +29,11 @@
     
 
     $sqlPostDB = "INSERT INTO testtree (f_name, l_name, user_email, user_pwd, user_company)
-                    VALUES('$_POST['fName']', '$_POST['lName']', '$_POST['email']', '$_POST['pwd']', '$_POST['company']');";
+                    VALUES('jaitest', 'sdfdsfdsf', 'eee', 'yeet', 'YER');";
     
     mysqli_query($conn, $sqlPostDB);
 
-    echo "change 1.8";
+    echo "change 1.9";
     echo $_POST['fName'];
     
     
