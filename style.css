@@ -12,7 +12,6 @@ h2 {
     text-align: center;
 }
 
-
 .news {
     width: 80%;
     margin: 0 auto;
@@ -73,41 +72,41 @@ h5 {
 }
 
 * {
-  box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 .carousel-caption {
-background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
 
 body {
-  margin: 0px;
-  font-family: 'segoe ui';
+    margin: 0px;
+    font-family: 'segoe ui';
 }
 
 
 /* navigation bar style */
 .nav {
-  height: 50px;
-  width: 100%;
-  background-color: #FDF5E6	;
-  position: relative;
-  z-index: 5;
+    height: 50px;
+    width: 100%;
+    background-color: #FDF5E6	;
+    position: relative;
+    z-index: 5;
 }
 
 .nav > .nav-header {
-  display: inline;
-  z-index: 5;
+    display: inline;
+    z-index: 5;
 
 }
 
 .nav > .nav-header > .nav-title {
-  display: inline-block;
-  font-size: 22px;
-  color: black;
-  padding: 10px 10px 10px 10px;
-  z-index: 5;
+    display: inline-block;
+    font-size: 22px;
+    color: black;
+    padding: 10px 10px 10px 10px;
+    z-index: 5;
 
 }
 
@@ -118,16 +117,16 @@ body {
 }
 
 .nav > .nav-links {
-  display: inline;
-  float: right;
-  font-size: 18px;
+    display: inline;
+    float: right;
+    font-size: 18px;
 }
 
 .nav > .nav-links > a {
-  display: inline-block;
-  padding: 13px 10px 13px 10px;
-  text-decoration: none;
-  color: black;
+    display: inline-block;
+    padding: 13px 10px 13px 10px;
+    text-decoration: none;
+    color: black;
 }
 
 .nav > .nav-links > a:hover {
