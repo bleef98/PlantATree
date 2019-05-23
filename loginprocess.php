@@ -9,12 +9,14 @@
 
 	// get name and password passed from client
 	$email = $_POST['email'];
-	$pwd = $_POST['pwd'];
+    $pwd = $_POST['pwd'];
+    
+    echo $email;
 
 	
 	// Checks if given username exists within the table
-	$sqlEmailNameCheck = "SELECT user_email FROM plantatree WHERE user_email='$email';";
-	$sqlQueryEmail = mysqli_query($conn, $sqlEmailNameCheck);
+	$sqlEmailCheck = "SELECT user_email FROM plantatree WHERE user_email='$email';";
+	$sqlQueryEmail = mysqli_query($conn, $sqlEmailCheck);
 	$sqlResultEmail = mysqli_fetch_assoc($sqlQueryEmail);
 
 	if(empty($sqlResultEmail["user_email"])){
