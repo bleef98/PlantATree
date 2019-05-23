@@ -18,12 +18,12 @@
 
     $conn = mysqli_connect($dbServername, $dbUsername, $dbPassword, $dbName);
 
-    $sqlCreateTable = "CREATE TABLE IF NOT EXISTS poststatus (
-                            status_code varchar(30), 
-                            status_text varchar(256), 
-                            status_share varchar(30), 
-                            status_date Date, 
-                            status_perm varchar(30));";
+    $sqlCreateTable = "CREATE TABLE IF NOT EXISTS plantATree (
+                            fName varchar(30), 
+                            lName varchar(256), 
+                            userEmail varchar(30), 
+                            userPWD Date, 
+                            userCompany varchar(30));";
 
         mysqli_query($conn, $sqlCreateTable);
 
@@ -47,12 +47,12 @@
 
     echo $_POST['fName'];
     
-    /*
-    $insert = "INSERT INTO customers(fName, lName, email, pwd, company)
+    
+    $insert = "INSERT INTO plantATree(fName, lName, email, pwd, company)
             VALUES('$fName', '$lName', '$email', '$pwd', '$company');";
 
     mysqli_query($conn, $insert);
-    */
+    
     ?>
 
 </body>
