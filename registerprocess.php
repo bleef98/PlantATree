@@ -58,10 +58,8 @@
 					<a href="register.html">Register another Account</a><br>
 					<a href="index.html">Return Home</a>
 				</div>
-
 			</div> <!-- End Modal Content-->
 		</div>
 	</div>
 </body>
-
 </html>
