@@ -30,7 +30,7 @@
 
 		if($sqlResultPassword["user_password"] == $pwd){
 			// Password and Username combination is correct. Now corresponding email
-			header("home.html"); /* Redirect browser 
+			header("home.html"); 
             exit();
 		}
 		else{
