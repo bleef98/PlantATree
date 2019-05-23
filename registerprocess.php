@@ -25,7 +25,7 @@
                             userPWD varchar(30, 
                             userCompany varchar(30));";
 
-        mysqli_query($conn, $sqlCreateTable);
+    mysqli_query($conn, $sqlCreateTable);
 
     $fName = $_POST['fName'];
     $lName = $_POST['lName'];
