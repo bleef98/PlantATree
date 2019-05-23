@@ -14,9 +14,14 @@
     echo $email;
     echo $pwd;
 
-    $sqlCheckEmail = "SELECT user_email FROM plantatree WHERE user_email='jairus@gmail.com';";
+    $sqlCheckEmail = "SELECT user_email FROM plantatree WHERE user_email='$email';";
     $sqlQueryEmail = mysqli_query($conn, $sqlCheckEmail);
     $sqlEmailResult = mysqli_fetch_assoc($sqlQueryEmail);
 
-    echo $sqlEmailResult['user_email'];
+    if(empty($sqlEmailResult["user_email"])){
+		echo "Email does not exist";
+	}
+	else { // Perform password check
+		echo "Email Exists";
+	}
 ?>
