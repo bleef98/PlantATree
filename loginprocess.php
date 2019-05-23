@@ -14,5 +14,9 @@
     echo $email;
     echo $pwd;
 
+    $sqlCheckEmail = "SELECT user_name FROM plantatree WHERE user_name='jairus@gmail.com';";
+    $sqlQueryEmail = mysqli_query($conn, $sqlCheckEmail);
+    $sqlEmailResult = mysqli_fetch_assoc($sqlQueryEmail);
 
+    echo $sqlEmailResult['user_email'];
 ?>
