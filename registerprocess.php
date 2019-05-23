@@ -34,6 +34,7 @@
     $company = $_POST['company'];
     //$acc_type = $_POST['acc_type'];
 
+    echo "change 1.0";
     echo $_POST['fName'];
     
     
