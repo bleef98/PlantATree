@@ -37,7 +37,7 @@
     echo $_POST['fName'];
     
     
-    $insert = "INSERT INTO plantATree(fName, lName, email, pwd, company)
+    $insert = "INSERT INTO plantATree(fName, lName, userEmail, userPWD, userCompany)
             VALUES('$fName', '$lName', '$email', '$pwd', '$company');";
 
     mysqli_query($conn, $insert);
