@@ -14,7 +14,7 @@
     echo $email;
     echo $pwd;
 
-	/*
+	
 	// Checks if given username exists within the table
 	$sqlEmailCheck = "SELECT user_email FROM plantatree WHERE user_email='$email';";
 	$sqlQueryEmail = mysqli_query($conn, $sqlEmailCheck);
@@ -36,5 +36,5 @@
 		else{
 			echo "Password is incorrect";
 		}
-	}*/
+	}
 ?>
