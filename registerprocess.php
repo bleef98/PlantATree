@@ -27,17 +27,6 @@
 
         mysqli_query($conn, $sqlCreateTable);
 
-    /*
-    $sqlTableCheck = "CREATE TABLE IF NOT EXISTS customers(
-        fName VARCHAR(50),
-        lName VARCHAR(50),
-        email VARCHAR(70),
-        pwd VARCHAR(20),
-        company (30),
-        acc_type VARCHAR(20));";
-
-    mysqli_query($conn, $sqlTableCheck); */
-
     $fName = $_POST['fName'];
     $lName = $_POST['lName'];
     $email = $_POST['email'];
