@@ -1,1 +1,4 @@
-{}
+{
+"scripts": {
+    "test":  "testcafe chrome,firefox tests/index-test.js"
+}}
