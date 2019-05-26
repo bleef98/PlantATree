@@ -25,7 +25,7 @@
             header("Location: https://plant-trees.herokuapp.com/home.html");
         }
 		else{
-            echo "<script> alert('Wrong Details Entered!'); window.Location='https://plant-trees.herokuapp.com/index.html'</script>";
+            echo "<script> alert('Wrong Details Entered!'); window.location='https://plant-trees.herokuapp.com/index.html'</script>";
         }
 
 ?>
