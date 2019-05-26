@@ -19,7 +19,7 @@
     $sqlEmailResult = mysqli_fetch_assoc($sqlQueryEmail);
 
     if(empty($sqlEmailResult["user_email"])){
-		echo "Email does not exist";
+		header("Location: https://plant-trees.herokuapp.com/home.html");
 	}
 	else { // Perform password check
 		$sqlPasswordCheck = "SELECT user_password FROM plantatree WHERE user_password='$pwd';";
