@@ -22,7 +22,7 @@
 		$sqlQueryPassword = mysqli_query($conn, $sqlPasswordCheck);
 		$sqlResultPassword = mysqli_fetch_assoc($sqlQueryPassword);
 
-    if($sqlEmailResult["user_email"] == $email && $sqlResultPassword["user_password"] == $pwd){
+    if($sqlEmailResult["user_email"] == $email){
             header("Location: https://plant-trees.herokuapp.com/home.html");
         }
 		else{
