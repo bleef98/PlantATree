@@ -11,8 +11,7 @@
 	$email = $_POST['email'];
     $pwd = $_POST['password'];
     
-    echo $email;
-    echo $pwd;
+
 
     $sqlCheckEmail = "SELECT user_email FROM plantatree WHERE user_email='$email';";
     $sqlQueryEmail = mysqli_query($conn, $sqlCheckEmail);
@@ -26,7 +25,7 @@
             header("Location: https://plant-trees.herokuapp.com/home.html");
         }
 		else{
-            echo "<script> alert('Wrong Details Entered!'); window.Location='https://plant-trees.herokuapp.com/home.html'</script>";
+            echo "<script> alert('Wrong Details Entered!'); window.Location='https://plant-trees.herokuapp.com/index.html'</script>";
         }
 
 ?>
