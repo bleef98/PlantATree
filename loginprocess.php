@@ -18,11 +18,11 @@
     $sqlQueryEmail = mysqli_query($conn, $sqlCheckEmail);
     $sqlEmailResult = mysqli_fetch_assoc($sqlQueryEmail);
 
-    $sqlPasswordCheck = "SELECT user_password FROM plantatree WHERE user_password='$pwd';";
+    $sqlPasswordCheck = "SELECT user_password FROM plantatree WHERE user_email='$email';";
 		$sqlQueryPassword = mysqli_query($conn, $sqlPasswordCheck);
 		$sqlResultPassword = mysqli_fetch_assoc($sqlQueryPassword);
 
-    if($sqlEmailResult["user_email"] == $email){
+    if($sqlEmailResult["user_email"] == $email && $sqlResultPassword["user_password"] == $pwd) {
             header("Location: https://plant-trees.herokuapp.com/home.html");
         }
 		else{
