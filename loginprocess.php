@@ -22,12 +22,11 @@
 		echo "Email does not exist";
 	}
 	else { // Perform password check
-		$sqlPasswordCheck = "SELECT user_password FROM labseven WHERE user_name='$name';";
+		$sqlPasswordCheck = "SELECT user_password FROM plantatree WHERE user_password='$pwd';";
 		$sqlQueryPassword = mysqli_query($conn, $sqlPasswordCheck);
 		$sqlResultPassword = mysqli_fetch_assoc($sqlQueryPassword);
 
 		if($sqlResultPassword["user_password"] == $pwd){
-			// Password and Username combination is correct. Now corresponding email
 			header("home.html"); /* Redirect browser */
             exit();
         }
